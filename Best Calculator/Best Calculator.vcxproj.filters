@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="tests\Test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Button.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Buttons.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\DisplayText.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIController.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Window.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exceptions\DivisionByZeroException.cpp">
+      <Filter>src\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\CalculationEngine.cpp">
+      <Filter>src\algorithms\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Calculator.cpp">
+      <Filter>src\algorithms\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\mathExpression.cpp">
+      <Filter>src\algorithms\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithms\CalculateFromRPN.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithms\IAlgorithm.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithms\RpnAlgorithm.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithms\RpnStrategy.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithms\Separator.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tests\Test.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Button.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Buttons.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\DisplayText.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\UIController.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Window.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exceptions\DivisionByZeroException.h">
+      <Filter>src\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\CalculationEngine.h">
+      <Filter>src\algorithms\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Calculator.h">
+      <Filter>src\algorithms\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\mathExpression.h">
+      <Filter>src\algorithms\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\CalculateFromRPN.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\IAlgorithm.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\ICalculate.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\RpnAlgorithm.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\RpnStrategy.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\Separator.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\Strategy.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\ofont.ru_Arial.ttf">
+      <Filter>resources</Filter>
+    </Font>
+    <Font Include="resources\ofont.ru_Times_New_Roman.ttf">
+      <Filter>resources</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67e1f7b0-16bd-4246-8259-89bce2599c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{b70244c8-2930-4008-84c4-92de3fd17249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{c8fe1d6b-b218-4aac-84ea-de1b1c38308b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\algorithms">
+      <UniqueIdentifier>{abeed298-f431-4fbb-a86c-0f39a6d4cc53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\exceptions">
+      <UniqueIdentifier>{273d3566-44e8-41a1-8307-5f317bebb3df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{10e900da-9645-47ba-8e7e-22b2dd148dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\algorithms\core">
+      <UniqueIdentifier>{c6715911-f9f8-40f9-b1e4-9ad283708d63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

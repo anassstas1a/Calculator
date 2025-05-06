@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{cbe2b025-ecec-49dc-a8a8-ed98598fe55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{d18681a1-6b70-45db-a901-b6bef04170ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{f68646e4-cb88-457d-949f-4e0afc43b6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\algorithms">
+      <UniqueIdentifier>{3d35d40d-c94d-420a-9a6f-5fdf93a3beae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\exceptions">
+      <UniqueIdentifier>{52fb8a92-b1b1-4f4f-9e05-f39011918fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{d1365092-ab58-42bb-b107-8c41d1866d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{164626d6-e50d-4e72-b366-4cc20227f6d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\ofont.ru_Arial.ttf">
+      <Filter>resources</Filter>
+    </Font>
+    <Font Include="resources\ofont.ru_Times_New_Roman.ttf">
+      <Filter>resources</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\algorithms\CalculateFromRPN.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithms\IAlgorithm.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithms\RpnAlgorithm.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithms\RpnStrategy.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithms\Separator.cpp">
+      <Filter>src\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\CalculationEngine.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Calculator.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\mathExpression.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exceptions\DivisionByZeroException.cpp">
+      <Filter>src\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Button.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Buttons.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\DisplayText.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\UIController.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Window.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\algorithms\CalculateFromRPN.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\IAlgorithm.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\ICalculate.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\RpnAlgorithm.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\RpnStrategy.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\Separator.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\CalculationEngine.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Calculator.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\mathExpression.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exceptions\DivisionByZeroException.h">
+      <Filter>src\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\Test.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Button.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Buttons.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\DisplayText.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\UIController.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Window.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithms\Strategy.h">
+      <Filter>src\algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
