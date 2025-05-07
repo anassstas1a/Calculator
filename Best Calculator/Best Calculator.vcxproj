@@ -59,6 +59,9 @@
     <ClInclude Include="src\ui\Window.h" />
     <ClInclude Include="tests\Test.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\CalculatorView.png" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
