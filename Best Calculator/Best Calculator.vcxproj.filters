@@ -133,5 +133,16 @@
     <Filter Include="src\algorithms\core">
       <UniqueIdentifier>{c6715911-f9f8-40f9-b1e4-9ad283708d63}</UniqueIdentifier>
     </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{5b5771a4-fa36-46ae-9f7c-5a1dc3a52ca7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\assets\CalculatorView.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="..\assets\CalculatorTest_5.gif">
+      <Filter>assets</Filter>
+    </Image>
   </ItemGroup>
 </Project>
